@@ -1,0 +1,25 @@
+body
+{
+    background-color: rgb(182, 182, 182);
+}
+
+p
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+}
+
+#bouton
+{
+    background-color: rgb(0, 255, 85);
+    font-size: 25px;
+    text-align: center; /* ← ceci centre le bouton horizontalement */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
